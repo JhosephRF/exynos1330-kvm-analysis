@@ -97,6 +97,7 @@ magiskboot unpack boot.img
 
 # Replace stock kernel with freshly built kernel
 rm -r kernel
+
 cp Image kernel
 
 # Repack new boot image
